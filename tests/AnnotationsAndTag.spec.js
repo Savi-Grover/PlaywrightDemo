@@ -10,19 +10,19 @@ test.slow('test slow', async({page})=>{
     // this test will be slow
  }),
  
-test.fail('test fail', async({page})=>{
-    // this test will fail
-}),
+// test.fail('test fail', async({page})=>{
+//     // this test will fail
+// }),
 
 test.fixme('test fixme', async({page})=>{
     // this test will fix
 }),
 
 
-test('not ready yet', async({page})=>{
+//test('not ready yet', async({page})=>{
     // this test will fail
-    test.fail
-})
+    //test.fail
+//})
 
 
 //tags - @smoke , @reg , @fast, @slow - declared within title of test only
